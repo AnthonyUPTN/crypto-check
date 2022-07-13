@@ -1,0 +1,59 @@
+.goBack {
+  margin: 10px 0;
+}
+
+.wrapper {
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(189, 189, 189);
+}
+
+img {
+  display: block;
+  width: 200px;
+}
+
+.about {
+  margin-left: 15px;
+}
+
+.score {
+  margin: 15px 0;
+}
+
+.overwiev {
+  margin: 15px 0;
+}
+
+.genresTitle {
+  margin: 15px 0;
+}
+
+.genres {
+  display: inline;
+}
+
+.genres:not(:last-child) {
+  margin-right: 5px;
+}
+
+.info {
+  margin: 15px 0;
+}
+.links {
+  height: 100px;
+  border-bottom: 2px solid rgb(189, 189, 189);
+}
+
+.genresItem:not(:last-child) {
+  margin-right: 5px;
+}
+
+.links {
+  margin-left: 10px;
+}
+
+.link {
+  margin-right: 10px;
+  font-size: 20px;
+}
