@@ -1,0 +1,65 @@
+.list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.item {
+  padding: 20px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; 
+  border-bottom: 1px solid #d7d7d7;
+  width: 900px;
+}
+
+.firstWrapper {
+  display: flex;
+  align-items: center;
+
+  min-width: 300px;
+}
+
+.img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.name {
+  width: 150px;
+}
+
+
+.symbol {
+  text-transform: uppercase;
+}
+
+.secondWrapper {
+  display: flex;
+  text-align: right;
+  justify-content: space-between;
+}
+
+.price {
+  width: 110px;
+}
+
+.volume {
+  width: 155px;
+}
+
+.marketcap {
+  width: 230px;
+}
+
+.percent {
+  width: 100px;
+}
+
+.red {
+  color: #f00606;
+}
+
+.green {
+  color: #11d811;
+}
