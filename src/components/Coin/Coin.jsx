@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 import s from "./coin.module.css";
 
 function Coin({ data }) {
-  console.log(data);
   const elements = data.map(({
     id, image, name, symbol, market_cap,
     current_price,
